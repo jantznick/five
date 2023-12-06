@@ -1,0 +1,16 @@
+{
+  "name": "five",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build-css": "tailwindcss -i ./template.css -o ./main.css",
+    "watch-css": "tailwindcss -i ./template.css -o ./main.css --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "tailwindcss": "^3.3.6"
+  }
+}
